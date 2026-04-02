@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+embeddings/
+data/
+*.bin
+*.pkl
+*.faiss
+.DS_Store
