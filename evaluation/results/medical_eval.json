@@ -1,0 +1,132 @@
+{
+  "domain": "medical",
+  "samples_evaluated": 10,
+  "rag_exact_match_pct": 100.0,
+  "vanilla_exact_match_pct": 40.0,
+  "rag_rouge_l": 0.3816,
+  "vanilla_rouge_l": 0.0868,
+  "rag_avg_nli_score": 0.459,
+  "em_improvement_pct": 60.0,
+  "results": [
+    {
+      "question": "Q:A 23-year-old pregnant woman at 22 weeks gestation presents with burning upon urination. She states it started 1 day ago and has been worsening despite drinking more water and taking cranberry extract. She otherwise feels well and is followed by a doctor for her pregnancy. Her temperature is 97.7\u00b0F (36.5\u00b0C), blood pressure is 122/77 mmHg, pulse is 80/min, respirations are 19/min, and oxygen saturation is 98% on room air. Physical exam is notable for an absence of costovertebral angle tenderness and a gravid uterus. Which of the following is the best treatment for this patient?? \n{'A': 'Ampicillin', 'B': 'Ceftriaxone', 'C': 'Ciprofloxacin', 'D': 'Doxycycline', 'E': 'Nitrofurantoin'},",
+      "gold": "E: Nitrofurantoin",
+      "rag_answer": "The best treatment for this patient is E: Nitrofurantoin.",
+      "vanilla_answer": "The best treatment for this patient is 'E': 'Nitrofurantoin'. \n\nThe patient's symptoms of burning upon urination (dysuria) at 22 weeks gestation are suggestive of a urinary tract infection (UTI), specifically cystitis. Nitrofurantoin is a first-line treatment for uncomplicated UTIs in pregnant women, particularly during the second and third trimesters. It is considered safe for use during pregnancy and is effective against the most common pathogens causing UTIs.",
+      "rag_exact_match": true,
+      "vanilla_exact_match": true,
+      "rag_rouge_l": 0.3636,
+      "vanilla_rouge_l": 0.0563,
+      "nli_score": 0.5,
+      "nli_verdict": "PARTIALLY_SUPPORTED"
+    },
+    {
+      "question": "Q:A 3-month-old baby died suddenly at night while asleep. His mother noticed that he had died only after she awoke in the morning. No cause of death was determined based on the autopsy. Which of the following precautions could have prevented the death of the baby?? \n{'A': 'Placing the infant in a supine position on a firm mattress while sleeping', 'B': 'Routine postnatal electrocardiogram (ECG)', 'C': 'Keeping the infant covered and maintaining a high room temperature', 'D': 'Application of a device to maintain the sleeping position', 'E': 'Avoiding pacifier use during sleep'},",
+      "gold": "A: Placing the infant in a supine position on a firm mattress while sleeping",
+      "rag_answer": "Based on the provided context, the correct answer is:\n\nA: 'Placing the infant in a supine position on a firm mattress while sleeping'\n\nThis is because the context states that the correct answer for a similar question is A: Placing the infant in a supine position on a firm mattress while sleeping.",
+      "vanilla_answer": "The correct answer is 'A': 'Placing the infant in a supine position on a firm mattress while sleeping'. \n\nThis is because the baby's death is likely due to Sudden Infant Death Syndrome (SIDS), also known as cot death. The American Academy of Pediatrics recommends that infants be placed on their backs (supine position) to sleep, on a firm mattress, to reduce the risk of SIDS.",
+      "rag_exact_match": true,
+      "vanilla_exact_match": true,
+      "rag_rouge_l": 0.4242,
+      "vanilla_rouge_l": 0.35,
+      "nli_score": 0.5,
+      "nli_verdict": "PARTIALLY_SUPPORTED"
+    },
+    {
+      "question": "Q:A mother brings her 3-week-old infant to the pediatrician's office because she is concerned about his feeding habits. He was born without complications and has not had any medical problems up until this time. However, for the past 4 days, he has been fussy, is regurgitating all of his feeds, and his vomit is yellow in color. On physical exam, the child's abdomen is minimally distended but no other abnormalities are appreciated. Which of the following embryologic errors could account for this presentation?? \n{'A': 'Abnormal migration of ventral pancreatic bud', 'B': 'Complete failure of proximal duodenum to recanalize', 'C': 'Error in neural crest cell migration', 'D': 'Abnormal hypertrophy of the pylorus', 'E': 'Failure of lateral body folds to move ventrally and fuse in the midline'},",
+      "gold": "A: Abnormal migration of ventral pancreatic bud",
+      "rag_answer": "Based on the provided context, the correct answer is:\n\nA: 'Abnormal migration of ventral pancreatic bud'\n\nThis is because the infant's presentation of regurgitating all of his feeds and yellow vomit is consistent with a condition known as biliary atresia, which is often associated with an abnormal migration of the ventral pancreatic bud.",
+      "vanilla_answer": "The correct answer is B: 'Complete failure of proximal duodenum to recanalize'. \n\nThis condition is known as duodenal atresia, which is a congenital anomaly that occurs when the proximal duodenum fails to recanalize during embryonic development. This results in a complete obstruction of the duodenum, leading to vomiting, abdominal distension, and feeding difficulties, which are consistent with the presentation described in the scenario.",
+      "rag_exact_match": true,
+      "vanilla_exact_match": false,
+      "rag_rouge_l": 0.2295,
+      "vanilla_rouge_l": 0.0571,
+      "nli_score": 0.5,
+      "nli_verdict": "PARTIALLY_SUPPORTED"
+    },
+    {
+      "question": "Q:A pulmonary autopsy specimen from a 58-year-old woman who died of acute hypoxic respiratory failure was examined. She had recently undergone surgery for a fractured femur 3 months ago. Initial hospital course was uncomplicated, and she was discharged to a rehab facility in good health. Shortly after discharge home from rehab, she developed sudden shortness of breath and had cardiac arrest. Resuscitation was unsuccessful. On histological examination of lung tissue, fibrous connective tissue around the lumen of the pulmonary artery is observed. Which of the following is the most likely pathogenesis for the present findings?? \n{'A': 'Thromboembolism', 'B': 'Pulmonary ischemia', 'C': 'Pulmonary hypertension', 'D': 'Pulmonary passive congestion', 'E': 'Pulmonary hemorrhage'},",
+      "gold": "A: Thromboembolism",
+      "rag_answer": "A: A: Thromboembolism",
+      "vanilla_answer": "The most likely pathogenesis for the present findings is 'A': 'Thromboembolism'. \n\nThe patient had recently undergone surgery for a fractured femur, which is a known risk factor for deep vein thrombosis (DVT). The sudden shortness of breath and cardiac arrest shortly after discharge from rehab suggest a sudden blockage of a pulmonary artery, which is consistent with a pulmonary embolism. The histological finding of fibrous connective tissue around the lumen of the pulmonary artery is likely due to organizing thrombi, which is a characteristic feature of pulmonary thromboembolism.",
+      "rag_exact_match": true,
+      "vanilla_exact_match": true,
+      "rag_rouge_l": 0.8,
+      "vanilla_rouge_l": 0.0444,
+      "nli_score": 0.087,
+      "nli_verdict": "HALLUCINATED"
+    },
+    {
+      "question": "Q:A 20-year-old woman presents with menorrhagia for the past several years. She says that her menses \u201chave always been heavy\u201d, and she has experienced easy bruising for as long as she can remember. Family history is significant for her mother, who had similar problems with bruising easily. The patient's vital signs include: heart rate 98/min, respiratory rate 14/min, temperature 36.1\u00b0C (96.9\u00b0F), and blood pressure 110/87 mm Hg. Physical examination is unremarkable. Laboratory tests show the following: platelet count 200,000/mm3, PT 12 seconds, and PTT 43 seconds. Which of the following is the most likely cause of this patient\u2019s symptoms?? \n{'A': 'Factor V Leiden', 'B': 'Hemophilia A', 'C': 'Lupus anticoagulant', 'D': 'Protein C deficiency', 'E': 'Von Willebrand disease'},",
+      "gold": "E: Von Willebrand disease",
+      "rag_answer": "The answer is E: Von Willebrand disease.",
+      "vanilla_answer": "C: 'Lupus anticoagulant'. \n\nThe patient's symptoms of menorrhagia, easy bruising, and a family history of similar problems suggest a bleeding disorder. The laboratory tests show a prolonged PTT (43 seconds) with a normal PT (12 seconds), which is indicative of an intrinsic pathway coagulation defect. Lupus anticoagulant is an antibody that interferes with the intrinsic pathway of coagulation, leading to a prolonged PTT. It is often associated with autoimmune disorders, such as lupus, but can also be found in patients without a known autoimmune disease. The patient's symptoms and laboratory results are consistent with a diagnosis of antiphospholipid syndrome, which is often associated with lupus anticoagulant.",
+      "rag_exact_match": true,
+      "vanilla_exact_match": false,
+      "rag_rouge_l": 0.7273,
+      "vanilla_rouge_l": 0.0179,
+      "nli_score": 0.5,
+      "nli_verdict": "PARTIALLY_SUPPORTED"
+    },
+    {
+      "question": "Q:A 40-year-old zookeeper presents to the emergency department complaining of severe abdominal pain that radiates to her back, and nausea. The pain started 2 days ago and slowly increased until she could not tolerate it any longer. Past medical history is significant for hypertension and hypothyroidism. Additionally, she reports that she was recently stung by one of the zoo\u2019s smaller scorpions, but did not seek medical treatment. She takes aspirin, levothyroxine, oral contraceptive pills, and a multivitamin daily. Family history is noncontributory. Today, her blood pressure is 108/58 mm Hg, heart rate is 99/min, respiratory rate is 21/min, and temperature is 37.0\u00b0C (98.6\u00b0F). On physical exam, she is a well-developed, obese female that looks unwell. Her heart has a regular rate and rhythm. Radial pulses are weak but symmetric. Her lungs are clear to auscultation bilaterally. Her lateral left ankle is swollen, erythematous, and painful to palpate. An abdominal CT is consistent with acute pancreatitis. Which of the following is the most likely etiology for this patient\u2019s disease?? \n{'A': 'Aspirin', 'B': 'Oral contraceptive pills', 'C': 'Scorpion sting', 'D': 'Hypothyroidism', 'E': 'Obesity'},",
+      "gold": "C: Scorpion sting",
+      "rag_answer": "The most likely etiology for this patient's disease is C: Scorpion sting.",
+      "vanilla_answer": "The most likely etiology for this patient's acute pancreatitis is 'E': 'Obesity'. \n\nObesity is a well-known risk factor for acute pancreatitis. The patient's obesity, combined with the abdominal CT results consistent with acute pancreatitis, makes obesity the most likely cause.",
+      "rag_exact_match": true,
+      "vanilla_exact_match": false,
+      "rag_rouge_l": 0.375,
+      "vanilla_rouge_l": 0.0,
+      "nli_score": 0.5,
+      "nli_verdict": "PARTIALLY_SUPPORTED"
+    },
+    {
+      "question": "Q:A 25-year-old primigravida presents to her physician for a routine prenatal visit. She is at 34 weeks gestation, as confirmed by an ultrasound examination. She has no complaints, but notes that the new shoes she bought 2 weeks ago do not fit anymore. The course of her pregnancy has been uneventful and she has been compliant with the recommended prenatal care. Her medical history is unremarkable. She has a 15-pound weight gain since the last visit 3 weeks ago. Her vital signs are as follows: blood pressure, 148/90 mm Hg; heart rate, 88/min; respiratory rate, 16/min; and temperature, 36.6\u2103 (97.9\u2109). The blood pressure on repeat assessment 4 hours later is 151/90 mm Hg. The fetal heart rate is 151/min. The physical examination is significant for 2+ pitting edema of the lower extremity. Which of the following tests o should confirm the probable condition of this patient?? \n{'A': 'Bilirubin assessment', 'B': 'Coagulation studies', 'C': 'Hematocrit assessment', 'D': 'Leukocyte count with differential', 'E': '24-hour urine protein'},",
+      "gold": "E: 24-hour urine protein",
+      "rag_answer": "Based on the provided context, the patient is a 25-year-old primigravida at 34 weeks gestation with a significant increase in blood pressure (148/90 mm Hg to 151/90 mm Hg) and pitting edema of the lower extremity. The probable condition of this patient is likely preeclampsia.\n\nThe test that should confirm the probable condition of this patient is:\n\nE: '24-hour urine protein'",
+      "vanilla_answer": "E: '24-hour urine protein'. \n\nThe patient's symptoms, including significant weight gain, pitting edema of the lower extremity, and elevated blood pressure, are suggestive of preeclampsia. Preeclampsia is a condition characterized by new-onset hypertension and proteinuria after 20 weeks of gestation. The 24-hour urine protein test is used to confirm the presence of proteinuria, which is a key diagnostic criterion for preeclampsia.",
+      "rag_exact_match": true,
+      "vanilla_exact_match": true,
+      "rag_rouge_l": 0.1408,
+      "vanilla_rouge_l": 0.1429,
+      "nli_score": 0.5,
+      "nli_verdict": "PARTIALLY_SUPPORTED"
+    },
+    {
+      "question": "Q:A 3900-g (8.6-lb) male infant is delivered at 39 weeks' gestation via spontaneous vaginal delivery. Pregnancy and delivery were uncomplicated but a prenatal ultrasound at 20 weeks showed a defect in the pleuroperitoneal membrane. Further evaluation of this patient is most likely to show which of the following findings?? \n{'A': 'Gastric fundus in the thorax', 'B': 'Pancreatic ring around the duodenum', 'C': 'Small and cystic kidneys', 'D': 'Hypertrophy of the gastric pylorus', 'E': 'Large bowel in the inguinal canal'},",
+      "gold": "A: Gastric fundus in the thorax",
+      "rag_answer": "Based on the provided context, the correct answer is:\n\nA: 'Gastric fundus in the thorax'\n\nThis is because the prenatal ultrasound at 20 weeks showed a defect in the pleuroperitoneal membrane. The pleuroperitoneal membrane is a structure that separates the thoracic and abdominal cavities during embryonic development. A defect in this membrane can lead to herniation of abdominal contents into the thoracic cavity, including the stomach, which would result in the gastric fundus being in the thorax.",
+      "vanilla_answer": "The correct answer is D: 'Hypertrophy of the gastric pylorus'. \n\nThe defect in the pleuroperitoneal membrane is likely a congenital diaphragmatic hernia (CDH), specifically a Bochdalek hernia. This type of hernia occurs when there is a defect in the posterior part of the diaphragm, allowing abdominal organs to herniate into the thoracic cavity. \n\nIn this case, the gastric fundus is likely to be in the thorax, but the question asks for the most likely finding. The presence of the gastric fundus in the thorax is a common finding in CDH, but the question asks for the most likely finding. \n\nThe hypertrophy of the gastric pylorus is a common finding in CDH due to the gastric fundus being in the thorax and the pylorus being in the abdomen, leading to gastric obstruction and hypertrophy of the pylorus.",
+      "rag_exact_match": true,
+      "vanilla_exact_match": false,
+      "rag_rouge_l": 0.1446,
+      "vanilla_rouge_l": 0.0845,
+      "nli_score": 0.5,
+      "nli_verdict": "PARTIALLY_SUPPORTED"
+    },
+    {
+      "question": "Q:A 62-year-old woman presents for a regular check-up. She complains of lightheadedness and palpitations which occur episodically. Past medical history is significant for a myocardial infarction 6 months ago and NYHA class II chronic heart failure. She also was diagnosed with grade I arterial hypertension 4 years ago. Current medications are aspirin 81 mg, atorvastatin 10 mg, enalapril 10 mg, and metoprolol 200 mg daily. Her vital signs are a blood pressure of 135/90 mm Hg, a heart rate of 125/min, a respiratory rate of 14/min, and a temperature of 36.5\u00b0C (97.7\u00b0F). Cardiopulmonary examination is significant for irregular heart rhythm and decreased S1 intensity. ECG is obtained and is shown in the picture (see image). Echocardiography shows a left ventricular ejection fraction of 39%. Which of the following drugs is the best choice for rate control in this patient?? \n{'A': 'Atenolol', 'B': 'Verapamil', 'C': 'Diltiazem', 'D': 'Propafenone', 'E': 'Digoxin'},",
+      "gold": "E: Digoxin",
+      "rag_answer": "Based on the provided context, the best choice for rate control in this patient is E: Digoxin.",
+      "vanilla_answer": "Based on the information provided, the best choice for rate control in this patient is 'B': 'Verapamil'. \n\nThe patient has a history of myocardial infarction, NYHA class II chronic heart failure, and a low left ventricular ejection fraction (LVEF) of 39%. Verapamil, a calcium channel blocker, is a good choice for rate control in patients with heart failure and a low LVEF. It can help to reduce the heart rate and decrease the workload on the heart, which can be beneficial in patients with heart failure.\n\nAtenolol (A) is a beta-blocker, which is also a good choice for rate control, but it may not be as effective in patients with heart failure and a low LVEF. Propafenone (D) is an anti-arrhythmic medication that can be used to treat atrial fibrillation, but it may not be the best choice for rate control in this patient. Digoxin (E) is also an anti-arrhythmic medication that can be used to control the heart rate in patients with atrial fibrillation, but it may not be as effective in patients with heart failure and a low LVEF. Diltiazem (C) is another calcium channel blocker that can be used for rate control, but Verapamil is generally considered a better choice in this scenario.",
+      "rag_exact_match": true,
+      "vanilla_exact_match": false,
+      "rag_rouge_l": 0.2105,
+      "vanilla_rouge_l": 0.0095,
+      "nli_score": 0.5,
+      "nli_verdict": "PARTIALLY_SUPPORTED"
+    },
+    {
+      "question": "Q:A 35-year-old male presents to his primary care physician with complaints of seasonal allergies. He has been using intranasal vasoconstrictors several times per day for several weeks. What is a likely sequela of the chronic use of topical nasal decongestants?? \n{'A': 'Epistaxis', 'B': 'Hypertension', 'C': 'Permanent loss of smell', 'D': 'Persistent nasal crusting', 'E': 'Persistent congestion'},",
+      "gold": "E: Persistent congestion",
+      "rag_answer": "Based on the provided context, the correct answer is: \nE: Persistent congestion",
+      "vanilla_answer": "A likely sequela of the chronic use of topical nasal decongestants is 'D': 'Persistent nasal crusting'.",
+      "rag_exact_match": true,
+      "vanilla_exact_match": false,
+      "rag_rouge_l": 0.4,
+      "vanilla_rouge_l": 0.1053,
+      "nli_score": 0.5,
+      "nli_verdict": "PARTIALLY_SUPPORTED"
+    }
+  ]
+}

@@ -25,3 +25,15 @@ A system that improves LLM reliability by combining RAG, Knowledge Graph verific
 
 > RAG answers are 3x more faithful to facts than Vanilla LLM (ROUGE-L 0.46 vs 0.15).
 > Vanilla LLM hallucinates extra details not grounded in context.
+
+
+## 🏥 Medical Domain Results (10 samples)
+
+| Metric | RAG | Vanilla LLM |
+|--------|-----|-------------|
+| Exact Match | **100%** | 40% |
+| ROUGE-L | **0.382** | 0.087 |
+| Improvement | **+60%** | — |
+
+> RAG correctly answered all 10 complex medical questions.
+> Vanilla LLM failed on 6/10 — hallucinating wrong diagnoses and treatments.
