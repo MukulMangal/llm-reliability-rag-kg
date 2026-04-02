@@ -1,0 +1,108 @@
+{
+  "domain": "science",
+  "samples_evaluated": 8,
+  "rag_exact_match_pct": 87.5,
+  "vanilla_exact_match_pct": 87.5,
+  "rag_rouge_l": 0.4624,
+  "vanilla_rouge_l": 0.1498,
+  "rag_avg_nli_score": 0.387,
+  "em_improvement_pct": 0.0,
+  "results": [
+    {
+      "question": "What is the speed of light?",
+      "gold": "299,792 kilometers per second",
+      "rag_answer": "The speed of light in a vacuum is approximately 299,792 kilometers per second (c).",
+      "vanilla_answer": "The speed of light in a vacuum is approximately 299,792 kilometers per second (km/s) or about 186,282 miles per second (mi/s).",
+      "rag_exact_match": true,
+      "vanilla_exact_match": true,
+      "rag_rouge_l": 0.5,
+      "vanilla_rouge_l": 0.3333,
+      "nli_score": 0.5,
+      "nli_verdict": "PARTIALLY_SUPPORTED"
+    },
+    {
+      "question": "Who discovered the structure of DNA?",
+      "gold": "Watson and Crick",
+      "rag_answer": "Watson and Crick discovered the double helix structure of DNA in 1953.",
+      "vanilla_answer": "James Watson and Francis Crick are credited with discovering the structure of DNA. They proposed the double helix model in 1953, using X-ray crystallography data provided by Rosalind Franklin and Maurice Wilkins.",
+      "rag_exact_match": true,
+      "vanilla_exact_match": true,
+      "rag_rouge_l": 0.4,
+      "vanilla_rouge_l": 0.1667,
+      "nli_score": 0.115,
+      "nli_verdict": "HALLUCINATED"
+    },
+    {
+      "question": "What is photosynthesis?",
+      "gold": "process by which plants convert sunlight into glucose",
+      "rag_answer": "Photosynthesis is the process by which plants convert sunlight, water, and CO2 into glucose and oxygen.",
+      "vanilla_answer": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy from the sun into chemical energy in the form of organic compounds, such as glucose. This process occurs in specialized organelles called chloroplasts, which contain the pigment chlorophyll that absorbs light energy.\n\nDuring photosynthesis, carbon dioxide and water are absorbed by the plant, and oxygen and glucose are produced as byproducts. The overall equation for photosynthesis is:\n\n6 CO2 + 6 H2O + light energy \u2192 C6H12O6 (glucose) + 6 O2\n\nPhotosynthesis is essential for life on Earth, as it provides the energy and organic compounds necessary to support the food chain. It also helps to regulate the Earth's atmosphere by removing carbon dioxide and releasing oxygen.",
+      "rag_exact_match": true,
+      "vanilla_exact_match": true,
+      "rag_rouge_l": 0.6667,
+      "vanilla_rouge_l": 0.1111,
+      "nli_score": 0.5,
+      "nli_verdict": "PARTIALLY_SUPPORTED"
+    },
+    {
+      "question": "How old is the universe?",
+      "gold": "approximately 13.8 billion years",
+      "rag_answer": "The universe is approximately 13.8 billion years old.",
+      "vanilla_answer": "The age of the universe is estimated to be approximately 13.8 billion years. This estimate is based on a variety of scientific observations and measurements, including the cosmic microwave background radiation, the abundance of light elements, and the expansion rate of the universe.",
+      "rag_exact_match": true,
+      "vanilla_exact_match": true,
+      "rag_rouge_l": 0.7143,
+      "vanilla_rouge_l": 0.2041,
+      "nli_score": 0.5,
+      "nli_verdict": "PARTIALLY_SUPPORTED"
+    },
+    {
+      "question": "What is the atomic number of carbon?",
+      "gold": "6",
+      "rag_answer": "There is no information about the atomic number of carbon in the provided context.",
+      "vanilla_answer": "The atomic number of carbon is 6.",
+      "rag_exact_match": false,
+      "vanilla_exact_match": true,
+      "rag_rouge_l": 0.0,
+      "vanilla_rouge_l": 0.25,
+      "nli_score": 0.007,
+      "nli_verdict": "HALLUCINATED"
+    },
+    {
+      "question": "What did Einstein's theory of relativity describe?",
+      "gold": "gravity as a curvature of spacetime",
+      "rag_answer": "Einstein's theory of general relativity describes gravity as a curvature of spacetime caused by mass.",
+      "vanilla_answer": "Einstein's theory of relativity, which consists of special relativity and general relativity, describes two main concepts:\n\n1. **Special Relativity (1905)**: This theory describes how space and time are relative, and how the laws of physics are the same for all observers in uniform motion relative to one another. It introduced the famous equation E=mc\u00b2, which shows that mass and energy are equivalent. Special relativity also explains phenomena such as time dilation, length contraction, and the speed of light being constant for all observers.\n\n2. **General Relativity (1915)**: This theory builds upon special relativity and introduces the concept of gravity as a curvature of spacetime caused by massive objects. According to general relativity, the curvature of spacetime around a massive object such as the Earth causes objects to fall towards the center of the Earth, which we experience as gravity. General relativity also predicts phenomena such as gravitational waves and black holes.\n\nIn summary, Einstein's theory of relativity revolutionized our understanding of space, time, and gravity, and has had a profound impact on the development of modern physics and astronomy.",
+      "rag_exact_match": true,
+      "vanilla_exact_match": true,
+      "rag_rouge_l": 0.5455,
+      "vanilla_rouge_l": 0.0638,
+      "nli_score": 0.5,
+      "nli_verdict": "PARTIALLY_SUPPORTED"
+    },
+    {
+      "question": "When was the periodic table created?",
+      "gold": "1869 by Dmitri Mendeleev",
+      "rag_answer": "The periodic table was created by Dmitri Mendeleev in 1869.",
+      "vanilla_answer": "The periodic table was created over a period of time, with several key milestones. \n\n- Dmitri Mendeleev is credited with the first widely recognized periodic table in 1869. He published his table in a Russian chemistry journal, 'Zhurnal Russkogo Fiziko-Khimicheskogo Obshchestva' (Journal of the Russian Physical-Chemical Society), on March 6, 1869.\n\n- However, earlier versions of periodic tables were developed by other scientists, such as John Newlands in 1863 and Julius Lothar Meyer in 1864.",
+      "rag_exact_match": true,
+      "vanilla_exact_match": true,
+      "rag_rouge_l": 0.4286,
+      "vanilla_rouge_l": 0.0506,
+      "nli_score": 0.035,
+      "nli_verdict": "HALLUCINATED"
+    },
+    {
+      "question": "What is CRISPR?",
+      "gold": "a genome editing technology",
+      "rag_answer": "CRISPR-Cas9 is a genome editing technology that allows scientists to modify DNA sequences.",
+      "vanilla_answer": "CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) is a powerful gene editing tool that allows scientists to make precise changes to the DNA of living organisms. It was discovered in 2012 by Jennifer Doudna and Emmanuelle Charpentier, and has since revolutionized the field of genetics and biotechnology.\n\nCRISPR works by using a small piece of RNA (called a guide RNA) to locate a specific sequence of DNA in a cell's genome. The guide RNA is programmed to recognize a specific sequence of DNA, and once it finds it, it cuts the DNA at that location. The cell then tries to repair the cut DNA, and scientists can provide a template for the repair, effectively editing the genome.\n\nCRISPR has many potential applications, including:\n\n1. Treating genetic diseases: By editing the genes that cause a disease, scientists may be able to develop new treatments or even cures.\n2. Improving crop yields: CRISPR can be used to edit the genes of crops to make them more resistant to pests and diseases, or to improve their nutritional content.\n3. Developing new biofuels: CRISPR can be used to edit the genes of microorganisms to produce biofuels more efficiently.\n4. Understanding gene function: CRISPR can be used to study the function of specific genes and how they contribute to disease.\n\nHowever, CRISPR also raises concerns about its potential misuse, such as:\n\n1. Gene editing for non-therapeutic purposes: Some people worry that CRISPR could be used to create \"designer babies\" or to edit genes for non-medical purposes.\n2. Unintended consequences: CRISPR can have unintended consequences, such as off-target effects or mosaicism (where some cells in the body have the edited gene, while others do not).\n\nOverall, CRISPR is a powerful tool that has the potential to revolutionize many fields, but it also requires careful consideration and regulation to ensure its safe and responsible use.",
+      "rag_exact_match": true,
+      "vanilla_exact_match": false,
+      "rag_rouge_l": 0.4444,
+      "vanilla_rouge_l": 0.019,
+      "nli_score": 0.94,
+      "nli_verdict": "SUPPORTED"
+    }
+  ]
+}
