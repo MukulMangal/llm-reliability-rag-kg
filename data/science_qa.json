@@ -1,0 +1,69 @@
+[
+  {
+    "question": "What is the speed of light?",
+    "answer": "299,792 kilometers per second",
+    "all_answers": [
+      "299,792 km/s",
+      "299792",
+      "speed of light"
+    ]
+  },
+  {
+    "question": "Who discovered the structure of DNA?",
+    "answer": "Watson and Crick",
+    "all_answers": [
+      "Watson",
+      "Crick",
+      "Watson and Crick"
+    ]
+  },
+  {
+    "question": "What is photosynthesis?",
+    "answer": "process by which plants convert sunlight into glucose",
+    "all_answers": [
+      "convert sunlight",
+      "glucose",
+      "oxygen"
+    ]
+  },
+  {
+    "question": "How old is the universe?",
+    "answer": "approximately 13.8 billion years",
+    "all_answers": [
+      "13.8 billion",
+      "13.8"
+    ]
+  },
+  {
+    "question": "What is the atomic number of carbon?",
+    "answer": "6",
+    "all_answers": [
+      "6"
+    ]
+  },
+  {
+    "question": "What did Einstein's theory of relativity describe?",
+    "answer": "gravity as a curvature of spacetime",
+    "all_answers": [
+      "spacetime",
+      "gravity",
+      "curvature"
+    ]
+  },
+  {
+    "question": "When was the periodic table created?",
+    "answer": "1869 by Dmitri Mendeleev",
+    "all_answers": [
+      "1869",
+      "Mendeleev"
+    ]
+  },
+  {
+    "question": "What is CRISPR?",
+    "answer": "a genome editing technology",
+    "all_answers": [
+      "genome editing",
+      "DNA modification"
+    ]
+  }
+]
