@@ -1,3 +1,15 @@
+---
+title: LLM Reliability RAG KG
+emoji: 🧠
+colorFrom: blue
+colorTo: purple
+sdk: docker
+pinned: false
+---
+
+
+
+
 # 🧠 LLM Reliability with RAG + Knowledge Graph + NLI
 
 A system that improves LLM reliability by combining RAG, Knowledge Graph verification (Wikidata), and NLI (DeBERTa) to detect hallucinations in real time.
